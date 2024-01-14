@@ -28,7 +28,7 @@ function Blogs() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:4000/interior');
+      const response = await fetch('https://real-estate-backend-sfgx.onrender.com/interior');
       const data = await response.json();
       setHouse(data);
       setLoading(false);
@@ -85,7 +85,7 @@ function Blogs() {
                 house.map((image, index) => (
                   <div key={index} className="mb-8">
                     <img
-                      src={`http://localhost:4000${image.image}`}
+                      src={`https://real-estate-backend-sfgx.onrender.com${image.image}`}
                       alt={`Interior ${index + 1}`}
                       className="w-full h-auto rounded-md shadow-md"
                     />

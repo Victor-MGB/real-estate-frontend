@@ -17,7 +17,7 @@ function Property() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:4000/recomhouse');
+        const response = await fetch('https://real-estate-backend-sfgx.onrender.com/recomhouse');
         const data = await response.json();
         setHouses(data);
         setLoading(false);
@@ -84,7 +84,7 @@ function Property() {
               houses.map((house, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
                   <img
-                    src={`http://localhost:4000${house.image}`}
+                    src={`https://real-estate-backend-sfgx.onrender.com${house.image}`}
                     alt={`House ${index + 1}`}
                     className="w-full h-48 object-cover transition duration-300 ease-in-out transform hover:scale-105"
                     onClick={openModal}

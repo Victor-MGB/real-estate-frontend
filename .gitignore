@@ -11,8 +11,8 @@
 # production
 /build
 /CheckoutForm.js
-/Property
-
+/Property.js
+/Property/Property
 # misc
 .DS_Store
 .env.local

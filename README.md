@@ -8,7 +8,7 @@ Prerequisites:
 A compatible web browser.
 Installation:
 
-Visit [website URL] to access the real estate platform.
+Visit https://github.com/Victor-MGB/real-estate-frontend to access the real estate platform.
 User Guide
 Home Page
 View featured listings.
